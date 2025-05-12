@@ -18,10 +18,14 @@ import { useState } from "react";
 export default function SingleInputControl() {
   const [name, setName] = useState("");
 
+  const handleChange = (event) => {
+    setName(event.target.value);
+  };
+
   return (
     <div>
       <h2>단일 입력값 제어</h2>
-      <input type='text' value={name} placeholder='이름을 입력하세요' />
+      <input type='text' value={name} onChange={handleChange} placeholder='이름을 입력하세요' />
 
       <hr />
       <p>입력한 이름: {name}</p>
