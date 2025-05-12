@@ -13,6 +13,26 @@ export default function Home() {
           <Link href="/chap01/section02">UsingProps</Link>
         </li>
       </ul>
+
+      <h1>State</h1>
+      <ul>
+        <li>
+          <Link href="/chap02/section01">State</Link>
+        </li>
+        <li>
+          <Link href="/chap02/section02">Child Update Parent State</Link>
+        </li>
+      </ul>
+
+      <h1>Controlled Component</h1>
+      <ul>
+        <li>
+          <Link href="/chap03/section01">SingleInputControl</Link>
+        </li>
+        <li>
+          <Link href="/chap03/section02">MultiInputControl</Link>
+        </li>
+      </ul>
     </div>
   );
 }
