@@ -32,6 +32,9 @@ export default function Home() {
         <li>
           <Link href='/chap02/section02'>useLocalStorage</Link>
         </li>
+        <li>
+          <Link href='/chap02/section03'>useFormValidation</Link>
+        </li>
       </ul>
     </>
   );
