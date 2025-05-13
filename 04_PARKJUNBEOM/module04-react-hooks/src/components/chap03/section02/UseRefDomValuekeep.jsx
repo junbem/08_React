@@ -29,6 +29,7 @@ export default function UseRefDomValuekeep() {
   return (
     <div>
       <h2>useRef를 이용한 값 유지</h2>
+      
       <input
         type="text"
         value={inputValue}
