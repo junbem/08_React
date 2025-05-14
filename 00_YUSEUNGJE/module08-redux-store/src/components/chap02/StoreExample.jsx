@@ -24,7 +24,6 @@
 "use client";
 
 import { configureStore, combineReducers } from "@reduxjs/toolkit";
-import store from "./../chap01/SimpleRedux";
 
 /*
   [Action]
@@ -71,7 +70,6 @@ const rootReducer = combineReducers({
 });
 
 const store = configureStore({
-  // reducer 추가
   reducer: rootReducer,
 });
 

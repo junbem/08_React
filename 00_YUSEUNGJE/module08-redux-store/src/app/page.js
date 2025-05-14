@@ -12,10 +12,16 @@ export default function Home() {
         </li>
       </ul>
 
-      <h2>chap02 basicRedux</h2>
+      <h2>chap02 combineReducers</h2>
       <ul>
         <li>
           <Link href='/chap02'>combineReducers</Link>
+        </li>
+      </ul>
+      <h2>chap03 Redux toolkit</h2>
+      <ul>
+        <li>
+          <Link href='/chap03'>Redux toolkit</Link>
         </li>
       </ul>
     </div>
